@@ -2,8 +2,9 @@
 name = "letter_value_sum"
 version = "0.1.0"
 edition = "2021"
+description = "Implements challenge #399 from r/dailyprogrammer. Takes a string of lowercase ASCII characters and returns the sum of the values of each letter in the string (where 'a' = 1)."
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-clap = { version = "4.4.18", features = ["derive"] }
+clap = { version = "4.4.18", features = ["derive", "cargo"] }
