@@ -4,6 +4,7 @@ use core::result::Result;
 #[derive(Parser, Debug)]
 #[command(author, version, about)]
 struct Args {
+    /// The argument passed to the letter sum function
     argstring: String,
 }
 
